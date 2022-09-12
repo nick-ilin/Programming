@@ -1,0 +1,200 @@
+body {
+	background-color: #FFFFFF;
+	margin: 0;
+}
+p {
+	text-align: center;
+	margin: 0px;
+}
+.topmenu {
+	width: 75%;
+	height: 100px;
+	margin: 0 10% 0 10%;
+	padding:0 20px 0 20px;
+	background-color: #004C93;
+}
+.navigation {
+	display: flex;
+	flex-direction: row;
+}
+.topmenu a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: 'Inter';
+	size: 16px;
+}
+.topmenu a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.topmenu a:visited {
+	color: #FFFFFF;
+}
+ul {
+	list-style: none;
+}
+.navname {
+	width: 30%;
+	float: left; 
+	position: relative;
+	color: #FFFFFF;
+	font-family: Inter;
+	font-size: 20px;
+	margin: 18px 10px 0px 10px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navmenu
+{
+	margin: 20px 10px 0px 10px;
+	float: left; 
+}
+.myname {
+	font-size: 36px;
+	font-weight: 700;
+	font-style: normal;
+}
+.aboutme div {
+	margin: 30px;
+}
+.aboutme {
+	font-family: Inter;
+	font-style: italic;
+	font-size: 24px;
+	font-weight: 700;
+	color: #004C93;
+	margin: 0 10% 0 10%;
+	width:75%;
+}
+.about {
+	float: left;
+}
+.myfoto {
+	margin-top: 50px;
+}
+.header {
+	font-family: Inter;
+	color: #004C93;
+	font-size: 36px;
+	font-weight: 700;
+	font-style: normal;
+	margin: 25px 10px 50px 25px;
+}
+.activity {
+	font-family: Inter;
+	font-style: italic;
+	font-size: 24px;
+	font-weight: 700;
+	color: #004C93;
+	margin: 0 10% 0 10%;
+	width:75%;
+	background-color: #F3FBFF;
+}
+.myactivity {
+	font-family: Roboto;
+	font-size: 120px;
+	font-weight: 900;
+	font-style: normal;
+	display: flex;
+	flex-direction: row;
+}
+.text {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+}
+.bottomblock {
+	border: 1px solid #004C93;
+	width: 16%;
+	min-width: 150px;
+	margin-top: 130px;
+	margin-right: 3%;
+	height: 260px;
+	padding: 5px;
+}
+.upperblock {
+	border: 1px solid #004C93;
+	width: 16%;
+	min-width: 150px;
+	margin-right: 3%;
+	height: 260px;
+	padding: 5px;
+}
+.mood {
+	font-family: Inter;
+	font-style: italic;
+	font-size: 24px;
+	font-weight: 700;
+	color: #004C93;
+	margin: 0 10% 0 10%;
+	width:75%;
+}
+.smile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer {
+	width: 75%;
+	margin: 0 10% 0 10%;
+	padding:20px 20px 20px 20px;
+	background-color: #004C93;
+	display: flex;
+	flex-direction: row;
+}
+.difficulties {
+	font-family: Inter;
+	font-style: italic;
+	font-size: 24px;
+	font-weight: 700;
+	color: #004C93;
+	background-color: #F3FBFF;
+	margin: 0 10% 0 10%;
+	width:75%;
+}
+.contname {
+	width: 75%;
+	float: left; 
+	position: relative;
+	color: #FFFFFF;
+	font-family: Inter;
+	font-size: 20px;
+	margin: 10px 10px 0px 10px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.phone {
+	width: 20%;
+	float: left; 
+	position: relative;
+	color: #FFFFFF;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 10px 10px 0px 10px;
+}
+.vklogo {
+	width: 5%;
+	float: right; 
+	position: relative;
+}
+
+.calc {
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	color: #004C93;
+	margin: 0 10% 0 10%;
+	width:75%;
+	}
+.rez {
+	display: flex;
+	flex-direction: row;
+	margin: 10px 10px 10px 0;
+}
+@media screen and (max-width: 1000px) {
+	.myactivity, .difficulties  {
+		flex-direction: column;
+	}
+	.bottomblock, .upperblock {
+		margin-top: 10px;
+	}
+}

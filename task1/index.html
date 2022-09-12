@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Обо мне</title>
+		<link rel="stylesheet" href="styles/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>		
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Roboto:wght@400&display=swap" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="./script/script.js"></script>
+	</head>
+	<body>
+
+		<div class="topmenu">
+			<div class="navigation"></div>
+			<ul>
+				<li class="navname">Николай Ильин</li>
+				<li class="navmenu"><a href="index.html#about">Обо мне</a></li>
+				<li class="navmenu"><a href="index.html#activity">Моя деятельность</a></li>
+				<li class="navmenu"><a href="index.html#calculator">Калькулятор</a></li>
+				<li class="navmenu"><a href="index.html#difficulties">Сложности</a></li>
+				<li class="navmenu"><a href="index.html#mood">Настроение</a></li>
+				<li class="navmenu"><a href="index.html#contacts">Контакты</a></li>
+			</ul>
+		</div>
+		<div class="aboutme">
+			<div class="about">
+				<div class="myname">Меня зовут Николай!</div>
+				<div>Я хочу обучаться программированию</div>
+				<div>А еще я люблю фотографировать</div>
+			</div>
+			<div class="myfoto"><img src="./img/foto.jpg" /></div>
+		</div>
+		<div class="activity">
+			<div class="header">Моя деятельность</div>
+			<div class="myactivity">
+				<div class="upperblock">1<div class="text">Пробую разобраться в программировании</div></div>
+				<div class="bottomblock">2<div class="text">Фотографирую птиц</div></div>
+				<div class="upperblock">3<div class="text">Собираю одскульное железо</div></div>
+				<div class="bottomblock">4<div class="text">Играю на гитаре</div></div>
+				<div class="upperblock">5<div class="text">Учу английский</div></div>
+			</div>
+		</div>
+		<div class="calc">
+			<div class="header">Калькулятор</div>
+			<div class="mycalc">
+				<input id="number1" type="text" placeholder="Введите число"/>
+				<select id="action">
+					<option value="" selected disabled hidden>Выберите действие</option>
+					<option value="+">+</option>
+					<option value="-">-</option>
+					<option value="*">*</option>
+					<option value="/">/</option>
+				</select>
+				<input id="number2" type="text" placeholder="Введите число"/>
+				<input type="button" value="Рассчитать" onclick="calculate();"/>
+				<div class="rez">
+					<div>Ваш результат:&nbsp;</div>
+					<div id="rezult">Расчет не производился</div>
+				</div>
+			</div>
+		</div>
+		<div class="difficulties">
+			<div class="header">Сложности</div>
+			<div class="myactivity">
+				<div class="upperblock"><p>?</p><div class="text">Не получилось сделать datalist в калькуляторе</div></div>
+				<div class="bottomblock"><p>?</p><div class="text">Еслть сложности с выравниванием блоков</div></div>
+				<div class="upperblock"><p>?</p><div class="text"></div></div>
+				<div class="bottomblock"><p>?</p><div class="text"></div></div>
+				<div class="upperblock"><p>?</p><div class="text"></div></div>
+			</div>
+		</div>
+		<div class="mood">
+			<div class="header">Настроение</div>
+			<div class="mymood"><img class="smile" src="./img/smile.png" /></div>
+		</div>
+		<div class="footer">
+			<div class="contname">Николай Ильин</div>
+			<div class="phone">+7&nbsp;917&nbsp;710&nbsp;33&nbsp;60</div>
+			<div class="vklogo"><a href="http://vk.com/dooomer"><img class="vk" src="./img/vk.png" /></a></div>
+		</div>
+	</body>
+</html>
